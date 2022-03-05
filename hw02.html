@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            margin-bottom: 10px;
+            color: rgb(57, 66, 80);
+            font-weight: 700;
+        }       
+        * {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 700;
+        }     
+        * a{
+            text-decoration: none;
+        }     
+        .line{
+            background-color: red;
+            width: 60px;
+            height: 2px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .wrap{
+            display: flex;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .item{
+            text-align: left;
+            margin: 20px;
+            width: 100%;
+            font-size: medium;          
+        }
+        .item p{
+            font-size: smaller;
+            color: gray;
+            font-weight: normal;
+        }
+        .item img{
+            height: 240px;
+            border-radius: 10px;
+            width: 100%;
+        }
+        .item a{
+            color:rgb(57, 66, 80);
+            font-weight: 700;
+        }
+        .item a:hover{
+            color: red;
+        }
+        .bottonall{
+            text-align: center;
+            width: 100%;    
+        }
+        .botton{
+            padding-top: 13px;
+        }
+        .botton a:hover {
+            background: darkred;
+        }
+        .botton a{
+            color: white;
+            font-size: 18px;
+            font-weight: 400;
+            background-color: red;
+            padding: 10px 30px 10px 30px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>精選文章</h1>
+    <div class="line"></div>
+    <div class="wrap">
+        <div class="item">
+            <img src="1.webp" alt="">
+            
+            <a href="https://5xruby.tw/posts/knowing-basic-css"><h2>零基礎也能懂的 CSS - 概念篇</h2></a>
+            <p>By Keddie・1月 27 2022・技術文章</p>
+                
+        
+        </div>
+        <div class="item">
+            
+            <img src="2.webp" alt="">
+            <div class="pic">
+                <a href="https://5xruby.tw/posts/build-your-first-web"><h2>順利實作你的第一個網頁畫面</h2></a>
+                <p>By Keddie・1月 27 2022・技術文章</p>
+            </div>
+            
+        </div>
+        <div class="item">
+            <img src="3.webp" alt="">
+            <div class="pic">
+                <a href="https://5xruby.tw/posts/learning-web-development-1"><h2>認識網頁開發從生活開始</h2></a>
+                <p>By Keddie・12月 10 2021・技術文章</p>
+            </div>
+        </div>
+    </div>
+    <div class="bottonall">
+        <div class="botton">
+            <a href="https://5xruby.tw/posts">更多文章</a>
+        </div>
+
+    </div>
+</body>
+</html>
